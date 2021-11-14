@@ -1,0 +1,23 @@
+{
+  "name": "Insta-Media-Downloader",
+  "version": "1.0.0",
+  "description": "You can download public Video and Image from Instagram.",
+  "main": "server.js",
+  "engines": {
+    "node": "14.6.0"
+  },
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node server.js",
+    "client": "cd client && npm start"
+  },
+  "author": "Apoorve Verma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "axios": "^0.19.2"
+  }
+}
