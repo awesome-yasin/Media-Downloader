@@ -26,6 +26,8 @@ Instagram user's photos and videos downloader. Download all media files from any
 * User Firendly Interface.
 * Unlimited access to Photos and videos of an IG user
 
+### Demo: https://instait.herokuapp.com/
+
 ## 2. Facebook Media Downloader
 
 ![2](https://user-images.githubusercontent.com/85479838/142007063-f3e56d6a-e181-487f-998d-dc4c7fc6b896.gif)
@@ -43,5 +45,27 @@ Download all of the photos in any Facebook album that you have permission to vie
 * User Friendly Interface
 * Unlimated access to Public Videos
 
+### Demo: https://fbit.herokuapp.com/
+
 ## 3. Youtube Media Downloader/Converter
 
+
+
+
+```diff
++ Note: This webapp is Running Fine deployed.
+```
+
+Download Videos from Youtube in all the available different formats from 144p to 1080p. You can also convert the Video in different mp3 format Just py pasting the link in input box.
+
+Its is made using ReactJs in Frontend and Free Vevio API.
+
+### Features
+
+* Download Youtube video in all quality
+* Convert Video into Mp3 directly
+* Unlimited API use
+* Written in very easy and understandable code
+* Dosen't require Backend. Done in Just frontend.
+
+### Demo: https://utit.herokuapp.com/
