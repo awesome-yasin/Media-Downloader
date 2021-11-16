@@ -25,3 +25,23 @@ Instagram user's photos and videos downloader. Download all media files from any
 * Get any public reel using sharable link.
 * User Firendly Interface.
 * Unlimited access to Photos and videos of an IG user
+
+## 2. Facebook Media Downloader
+
+![2](https://user-images.githubusercontent.com/85479838/142007063-f3e56d6a-e181-487f-998d-dc4c7fc6b896.gif)
+
+
+```diff
+- Note: This webapp will not work Deployed Download the Source code and Run on your Localhost it will work fine or download the source code and Run from termux in your phone it will run fine on phone's browser localstorage.
+```
+
+Download all of the photos in any Facebook album that you have permission to view.Build using NodeJs and vanilla Javascript with very minimal Lines of code.
+
+### Features
+
+* Download any Public Video in one click
+* User Friendly Interface
+* Unlimated access to Public Videos
+
+## 3. Youtube Media Downloader/Converter
+
