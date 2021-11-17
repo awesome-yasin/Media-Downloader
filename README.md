@@ -93,3 +93,17 @@ Made Using ReactJs for frontend and Free API from Rapid API.
 * Written in very easy and understandable code
 
 ### Demo: https://scdit.herokuapp.com/
+
+### 5. Dailymotion/Adult Site Downloader
+
+Download DailyMotion Videos as well as adult videos from almost all popular adult sites for free and in all different quality available. Made Using ReactJs for frontend and Free API from Rapid API.
+
+### Features
+
+* Download DailyMotion videos in all quality 
+* Download adult video from all popular sites
+* Different quality to choose from
+* User Friendly interface
+* Made only using frontend no backend required
+
+### Demo: https://downitt.herokuapp.com/
