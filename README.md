@@ -69,3 +69,23 @@ Its is made using ReactJs in Frontend and Free Vevio API.
 * Dosen't require Backend. Done in Just frontend.
 
 ### Demo: https://utit.herokuapp.com/
+
+## 4. Soundcloud Downloader
+
+```diff
++ Note: This webapp is Running Fine deployed.
+```
+
+SoundCloud Downloader is a webapp to online download SoundCloud tracks, songs, music in MP3 format. Use this SoundCloud downloader to download SoundCloud high quality mp3 tracks in 128kbps & 320kbps speed.
+
+Made Using ReactJs for frontend and Free API from Rapid API.
+
+### Features
+
+* Download Songs in Different Quality
+* Made Using Just Frontend not backend
+* Unlimited access to free API
+* Secure and Fast Download
+* Written in very easy and understandable code
+
+### Demo: https://scdit.herokuapp.com/
