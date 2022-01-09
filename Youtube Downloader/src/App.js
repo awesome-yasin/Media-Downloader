@@ -68,6 +68,9 @@ function App() {
             videoUrl.startsWith("https://youtube.com/watch?v=") ||
             videoUrl.startsWith("www.youtube.com/watch?v=") ||
             videoUrl.startsWith("youtube.com/watch?v=") ||
+            videoUrl.startsWith("https://youtu.be/") ||
+            videoUrl.startsWith("https://youtube.com/shorts/") ||
+            videoUrl.startsWith("https://m.youtube.com/watch?v=") ||
             videoUrl.startsWith("v=") ? (
               <div>
                 <DownloadButton id={id} type="mp3" />
