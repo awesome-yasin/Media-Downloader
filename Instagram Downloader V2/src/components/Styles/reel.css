@@ -1,0 +1,79 @@
+.reel-output {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reel-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.reel-response,
+.post-response {
+    background-color: rgb(138, 138, 138);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 3rem auto;
+    width: 35rem;
+}
+
+.reel-creator {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.reel-caption,
+.post-caption {
+    padding: 1rem;
+    color: #000;
+}
+
+.reel-video,
+.post-section {
+    margin: auto;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.creator-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    row-gap: 0.25rem;
+    font-size: 0.85rem;
+}
+
+
+
+@media screen and (max-width: 520px) {
+    .profile-picture {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .creator-info {
+        font-size: 0.75rem;
+    }
+    .reel-creator {
+        column-gap: 1rem;
+    }
+    .reel-video {
+        width: 100%;
+    }
+    .reel-caption,
+    .post-caption {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+}

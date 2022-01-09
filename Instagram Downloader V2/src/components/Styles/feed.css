@@ -1,0 +1,57 @@
+.likes{
+    display: flex;
+    justify-content: flex-start;
+ margin-left: 30px;
+ margin-top: 10px;
+
+}
+
+.plays{
+    display: flex; 
+   
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.plays img{
+    margin-right: auto;
+  
+}
+.plays p{
+    margin-left: 10px;
+  margin-right: auto;
+}
+
+.like-count{
+    display: flex;  
+  align-items: center;
+  justify-content: center;
+  float:left !important;
+  margin-left: 30px;
+
+}
+.like-count img{
+    float:left;
+   
+  
+}
+.like-count p{
+    margin-left: 10px;
+    float:left;
+}
+.story-box{
+    border: 2px solid #fff;
+  overflow-x: scroll;
+  
+  
+}
+.story-box::-webkit-scrollbar{
+    display: none;
+}
+.captions{
+    padding: 20px
+}
+.bio{
+    color: rgb(0, 0, 0);
+}
