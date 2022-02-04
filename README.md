@@ -81,9 +81,10 @@ Download all of the photos in any Facebook album that you have permission to vie
 
 ### Demo: https://fbit.herokuapp.com/
 
-## 3. Youtube Media Downloader/Converter
+## 3. Youtube Media Downloader/Converter (Version 2)
 
-![worked](https://user-images.githubusercontent.com/85479838/142136461-ea19e211-b585-405d-8e68-26277c80a656.gif)
+<img src="https://user-images.githubusercontent.com/85479838/152538719-c972cea1-bb73-4f01-8ca4-d924ffd501c1.png" width="400" height="200"> <img src="https://user-images.githubusercontent.com/85479838/152538729-3477a58d-5599-46b9-8dbe-ae23170aa1e6.png" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/85479838/152538737-5fa39693-3db0-407b-af73-6565bc5e1cbe.png" width="400" height="200"> <img src="https://user-images.githubusercontent.com/85479838/152538742-d017c96d-0c1d-4cb2-9f0a-d9ef5e9fb2dd.png" width="400" height="200">
 
 
 ```diff
@@ -102,7 +103,7 @@ Its is made using ReactJs in Frontend and Free Vevio API.
 * Written in very easy and understandable code
 * Dosen't require Backend. Done in Just frontend.
 
-### Demo: https://utit.herokuapp.com/
+### Demo: https://ytvio.netlify.app/
 
 ## 4. Soundcloud Downloader
 
