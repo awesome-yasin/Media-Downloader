@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<!-- https://www.youtube.com/watch?v=1cyCYddBVMo -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Ytvio - Youtube Downloader & converter</title>
+	<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/5d/73/c5/5d73c5d3542378d979e4aee216a80482.jpg">
+</head>
+<noscript>
+    This page needs JavaScript to work properly!
+</noscript>
+<body>
+	<header class="header-area">
+		<!-- site-navbar start -->
+		<div class="navbar-area">
+		  <div class="container">
+			<nav class="site-navbar">
+			  <!-- site logo -->
+			  <a href="#home" class="site-logo"
+				>Ytvio
+				<span style="font-size: 12px; font-weight: 500"
+				  >-By Yasin (Utit V2)</span
+				></a
+			  >
+  
+			  <!-- site menu/nav -->
+			  <ul>
+				<li><a href="https://yasin-ai.github.io/igvio/#/igvio/feed">Instagram Downloader</a></li>
+				<li><a href="https://utit.herokuapp.com/">Facebook Downloader</a></li>
+				<li><a href="https://downitt.herokuapp.com/">Dailymotion/Adult Downloader</a></li>
+				<li><a href="https://scdit.herokuapp.com/">Soundcloud Downloader</a></li>
+			  </ul>
+  
+			  <!-- nav-toggler for mobile version only -->
+			  <button class="nav-toggler">
+				<span></span>
+			  </button>
+			</nav>
+		  </div>
+		</div>
+		<!-- navbar-area end -->
+	  </header>
+	  <div class="one" style="margin-top: 10%;">
+		<h1>Youtube Downloader</h1>
+	  </div>
+
+
+	
+	<div class="wrap">
+		<div class="search">
+		   <input type="text" class="searchTerm" id="inputUrl" placeholder="Enter Youtube URL">
+		   <button type="submit" onclick="getVideos(inputUrl.value)" class="searchButton">
+			 <i class="fa fa-search"></i>
+		  </button>
+		</div>
+	 </div>
+
+
+
+	
+
+	<div id="message" class="resets"></div>
+	<div class="w-full">
+	
+	<div id="frame" class="ifr">
+		
+	</div>
+	<div id="title"></div>
+
+
+	<div class="info">
+        <p class="mr-3">
+          <img
+            src="https://i.ibb.co/gJZ3CjW/image.png"
+            style="width: 30px; height: 30px;"
+            alt=""
+            srcset=""
+          />
+          <p id="view"></p>
+        </p>
+        <p class="mr-3">
+          <img
+            src="https://i.ibb.co/Y3RzLws/calendar.png"
+            style="width: 30px; height: 30px;"
+            alt=""
+            srcset=""
+          />
+         <p id="date"></p>
+        </p>
+        <p class="mr-3">
+          <img
+            src="https://i.ibb.co/hHBYy4S/clock.png"
+            style="width: 30px; height: 30px;"
+            alt=""
+            srcset=""
+          />
+          <p id="duration"></p>
+        </p>
+
+      </div>
+
+
+	<div class="table-responsive table-striped table-bordered table-hover">
+	<table class="table" style="width:100%" id="download_links">
+		<thead><tr>
+			<th scope="col">Download Link</th>
+			<th scope="col">Resolution</th>
+			<th scope="col">File Type</th>
+			
+		
+			<th scope="col">Bitrate</th>
+			<th scope="col">Audio Sample Rate</th>
+		<tr></thead>
+		<tbody id="tb" class="resets"></tbody>
+	</table>
+	</div>
+</div>
+
+
+
+<div class="head"><p>Ytvio Features</p></div>
+<section>
+	<div class="grid-flex">
+	  <div class="col col-image" style="background-image: url(https://www.techrounder.com/wp-content/uploads/2019/11/online-tools-download-youtube-video.jpg);">
+	  </div>
+	  <div class="col col-text">
+		<div class="Aligner-item">
+		  <p>Using our Youtube downloader is the fast and easy way to
+			download and save any YouTube video to MP3 or MP4. Simply copy
+			YouTube URL, paste it on the search box.
+	
+		  </p>
+		</div>
+	  </div>
+	</div>
+	
+	<div class="grid-flex">
+	  <div class="col col-image" style="background-image: url(https://daily4mative.com/wp-content/uploads/2021/08/YouTube-to-MP3-Converter.jpg);">
+		&nbsp;
+	  </div>
+	  <div class="col col-text col-left">
+		<div class="Aligner-item">
+		  <p>Download and convert YouTube videos as much as you want without
+			limitation and always free.We support all device platforms. Easy
+			to convert YouTube videos to MP3 files regardless of whether you
+			are using Windows, Mac or Linux, Android, iPhone.
+
+		  </p>
+		</div>
+	  </div>
+	</div>
+  
+	<div class="grid-flex">
+	  <div class="col col-image" style="background-image: url(https://d540vms5r2s2d.cloudfront.net/mad/uploads/mad_blog_5de0f46c7fdd81575023724.jpg);">
+		&nbsp;
+	  </div>
+	  <div class="col col-text">
+		<div class="Aligner-item">
+		  <p>We support all video and audio formats conversion. You can
+			easily convert YouTube videos to MP3, 3GP, MP4, WMA, M4A, FLV,
+			WEBM and MO formats, etc.
+	
+		  </p>
+		</div>
+	  </div>
+	</div>
+  
+	<div class="grid-flex">
+	  <div class="col col-image" style="background-image: url(https://www.opentechinfo.com/wp-content/uploads/2018/09/youtube.png);">
+		&nbsp;
+	  </div>
+	  <div class="col col-text col-left">
+		<div class="Aligner-item">
+		  <p>With the rising awareness of device security, people attach
+			great importance to personal data. The service is totally clean
+			with no virus under intense supervision based on security
+			database.
+	
+		  </p>
+		</div>
+	  </div>
+	</div>
+  
+
+  </section>
+
+
+  
+  <footer>
+    <div class="wrapper">
+      <small>&copy;2021 <strong>Ytvio By Yasin</strong>, Made with ❤️</small>
+      <nav class="footer-nav">
+        <a href="https://github.com/awesome-yasin">Github Link</a>
+        <a href="https://www.instagram.com/yasinn.0x/">Instagram Link</a>
+        <a href="#">Other Awesome Projects</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+<script type="text/javascript" src="youtube_extractor.js"></script>
+<html>
