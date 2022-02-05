@@ -1,0 +1,157 @@
+.likes{
+    display: flex;
+    justify-content: flex-start;
+ margin-left: 30px;
+ margin-top: 10px;
+
+}
+
+.plays{
+    display: flex; 
+   
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.plays img{
+    margin-right: auto;
+  
+}
+.plays p{
+    margin-left: 10px;
+  margin-right: auto;
+}
+
+.like-count{
+    display: flex;  
+  align-items: center;
+  justify-content: center;
+  float:left !important;
+  margin-left: 30px;
+
+}
+.like-count img{
+    float:left;
+   
+  
+}
+.like-count p{
+    margin-left: 10px;
+    float:left;
+}
+.story-box{
+    border: 2px solid #fff;
+  overflow-x: scroll;
+  
+  
+}
+.story-box::-webkit-scrollbar{
+    display: none;
+}
+.captions{
+    padding: 20px
+}
+.bio{
+    color: rgb(0, 0, 0);
+}
+
+.buttonoDwnload{
+    width: 100% !important;
+}
+.downinfo{
+    color: red;
+    font-weight: bold;
+}
+
+
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 15px 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+	background-color: #3b5998;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;transition: 0.5s;
+    font-weight: bold;
+}
+
+.buttonDownload:hover {
+	background-color: #333;
+	color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+  
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #4CC713;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #4CC713;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
+.profile-description{
+    margin-top: 100px;
+    margin-left: 20%;
+    
+}

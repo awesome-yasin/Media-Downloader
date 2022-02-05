@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Designed by Vexels.com - 2017 All Rights Reserved - https://vexels.com/terms-and-conditions/-->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve">
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="50" y1="600" x2="1150" y2="600">
+			<stop  offset="0" style="stop-color:#FDF440"/>
+			<stop  offset="0.2586" style="stop-color:#F94A2F"/>
+			<stop  offset="0.3244" style="stop-color:#F74734"/>
+			<stop  offset="0.3992" style="stop-color:#F13D41"/>
+			<stop  offset="0.4781" style="stop-color:#E72E58"/>
+			<stop  offset="0.5538" style="stop-color:#DA1A75"/>
+			<stop  offset="1" style="stop-color:#2B4AE2"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M1060.821,1070.333H139.179c-49.174,0-89.179-40.004-89.179-89.175V370.117
+			c0-49.171,40.005-89.175,89.179-89.175h141.415l153.223-151.275h334.278l151.523,151.275h141.204
+			c49.174,0,89.179,40.004,89.179,89.175v611.041C1150,1030.329,1109.995,1070.333,1060.821,1070.333z M139.722,980.61h920.555
+			V370.664H882.497L730.974,219.39h-260.33L317.421,370.664H139.722V980.61z"/>
+	</g>
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="327.1183" y1="644.0205" x2="872.8804" y2="644.0205">
+			<stop  offset="0" style="stop-color:#FDF440"/>
+			<stop  offset="0.2586" style="stop-color:#F94A2F"/>
+			<stop  offset="0.3244" style="stop-color:#F74734"/>
+			<stop  offset="0.3992" style="stop-color:#F13D41"/>
+			<stop  offset="0.4781" style="stop-color:#E72E58"/>
+			<stop  offset="0.5538" style="stop-color:#DA1A75"/>
+			<stop  offset="1" style="stop-color:#2B4AE2"/>
+		</linearGradient>
+		<path fill="url(#SVGID_2_)" d="M599.999,916.9c-150.467,0-272.881-122.415-272.881-272.88s122.414-272.88,272.881-272.88
+			S872.88,493.556,872.88,644.021S750.466,916.9,599.999,916.9z M599.999,460.863c-100.994,0-183.159,82.165-183.159,183.157
+			s82.165,183.157,183.159,183.157s183.159-82.165,183.159-183.157S700.993,460.863,599.999,460.863z"/>
+	</g>
+</g>
+</svg>
