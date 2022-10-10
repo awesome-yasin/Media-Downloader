@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Designed by Vexels.com - 2017 All Rights Reserved - https://vexels.com/terms-and-conditions/-->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<g>
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="282.5621" y1="375.0695" x2="918.1641" y2="375.0695">
+					<stop  offset="0" style="stop-color:#FDF440"/>
+					<stop  offset="0.2586" style="stop-color:#F94A2F"/>
+					<stop  offset="0.3244" style="stop-color:#F74734"/>
+					<stop  offset="0.3992" style="stop-color:#F13D41"/>
+					<stop  offset="0.4781" style="stop-color:#E72E58"/>
+					<stop  offset="0.5538" style="stop-color:#DA1A75"/>
+					<stop  offset="1" style="stop-color:#2B4AE2"/>
+				</linearGradient>
+				<path fill="url(#SVGID_1_)" d="M600.363,692.868c-175.236,0-317.801-142.563-317.801-317.798S425.127,57.271,600.363,57.271
+					S918.164,199.835,918.164,375.07S775.599,692.868,600.363,692.868z M600.363,150.026c-124.09,0-225.046,100.953-225.046,225.043
+					s100.955,225.043,225.046,225.043S825.409,499.16,825.409,375.07S724.454,150.026,600.363,150.026z"/>
+			</g>
+		</g>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="50" y1="932.4219" x2="1150" y2="932.4219">
+				<stop  offset="0" style="stop-color:#FDF440"/>
+				<stop  offset="0.2586" style="stop-color:#F94A2F"/>
+				<stop  offset="0.3244" style="stop-color:#F74734"/>
+				<stop  offset="0.3992" style="stop-color:#F13D41"/>
+				<stop  offset="0.4781" style="stop-color:#E72E58"/>
+				<stop  offset="0.5538" style="stop-color:#DA1A75"/>
+				<stop  offset="1" style="stop-color:#2B4AE2"/>
+			</linearGradient>
+			<path fill="url(#SVGID_2_)" d="M1103.622,1142.729c-25.613,0-46.377-20.766-46.377-46.378
+				c0-155.211-126.273-281.481-281.484-281.481H424.239c-155.211,0-281.484,126.27-281.484,281.481
+				c0,25.612-20.764,46.378-46.378,46.378S50,1121.963,50,1096.351c0-206.355,167.882-374.236,374.239-374.236h351.523
+				c206.357,0,374.239,167.881,374.239,374.236C1150,1121.963,1129.236,1142.729,1103.622,1142.729z"/>
+		</g>
+	</g>
+</g>
+</svg>
