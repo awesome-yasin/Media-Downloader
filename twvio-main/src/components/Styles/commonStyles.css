@@ -1,0 +1,32 @@
+#profile-section,
+#story-section,
+#reel-section,
+#post-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.profile-response,
+.story-response,
+.reels-response,
+.post-response {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.loadingSvg {
+    margin: 0 auto;
+    width: 10rem;
+}
+
+@media screen and (max-width: 520px) {
+    .reel-response,
+    .post-response,
+    .igtv-response {
+        margin: 2rem;
+        width: auto;
+    }
+}
