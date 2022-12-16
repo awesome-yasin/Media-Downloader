@@ -1,0 +1,122 @@
+
+.radio {
+  max-width: 60em;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+
+  .selected {
+    background: linear-gradient(to bottom right, #e36bae, #fb743e);
+  }
+
+
+.stations {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  width: 100%;
+ 
+}
+
+.station {
+  font-size: 1.2em;
+  border: 1px solid rgb(76, 62, 95);
+  margin: 0.25em;
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+
+  
+}
+
+.stationName {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+ 
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.artist{
+    font-weight: normal;
+}
+
+.logos {
+  display: block;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  border: 2px solid rgb(76, 62, 95);
+  margin: 0 0.25em;
+}
+
+audio {
+  width: 100%;
+}
+
+.rhap_container.player {
+  background-color: rgb(76, 62, 95);
+  display: flex;
+  justify-items: center;
+  padding: 0.25em 0.75em;
+  border-radius: 10px;
+  
+}
+
+.rhap_stacked .rhap_controls-section {
+  margin-top: 0 !important;
+
+}
+
+.rhap_controls-section .rhap_volume-controls {
+  justify-content: center;
+  
+}
+.rhap_time {
+    color: #fff !important;
+    
+  }
+.rhap_controls-section .rhap_main-controls button[aria-label="Play"] svg path {
+  fill: rgb(235, 235, 235) !important;
+}
+
+.rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
+  fill: #e36bae !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .stations {
+    grid-template-columns: repeat(1, 90%);
+    
+  }
+
+  
+}
+.music_download{
+    
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    right: 0;
+}
+
